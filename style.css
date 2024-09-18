@@ -1,0 +1,111 @@
+body {
+    height: 100%;
+}
+section {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+.gradient-bg {
+    background: linear-gradient(182deg, #000000, #0f0c3a, #0f0a49);
+}
+.glass{
+    backdrop-filter: blur(10px);
+}
+.btn-gradient {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #040113, #050327, #27064e, #230268);
+    background-size: 300%;
+    transition: background-position 0.5s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+.btn-gradient:hover {
+    background-position: right;
+}
+
+.nav-btn-gradient {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #000000, #000000, #3c0594, #000000);
+    background-size: 300%;
+    transition: background-position 0.5s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+.nav-btn-gradient:hover {
+    background-position: right;
+}
+.btn-email{
+    margin-top: 2%;
+    padding: 0.5% 10%;
+}
+.borderpic{
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(42, 12, 97, 0.8); 
+    transition: box-shadow 0.3s ease;
+}
+.borderpic:hover{
+    box-shadow: 0 0 100px rgba(42, 12, 97, 1);
+}
+.borderall{
+    box-shadow: 0 0 100px rgba(42, 12, 97, 1);
+}
+.borderproj{
+    box-shadow: 0 0px 10px rgba(42, 12, 97, 1);
+}
+.album{
+    background-image: url(./images/tech.png);
+    background-position: 110% 260%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.devintro{
+    font-size: 6rem;
+}
+.devintro2{
+    font-size: 3rem;
+}
+.custom-container {
+    width: 75%;
+    height: 100vh;
+    max-height: 870px;
+    max-width: 1800px; 
+    margin: 0 auto;
+}
+.custom-container2{
+    width: 75%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 1800px; 
+    margin: 0 auto;
+}
+.githover:hover{
+    border: 1px solid white;
+}
+.nav-font{
+    font-family: Montserrat;
+}
+.card {
+    background-color: transparent;
+    border: none;
+}
+@media (max-width: 576px) {
+    .devintro{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .devintro2{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media (max-width: 990px) {
+    .devintro{
+        font-size: 3.5rem;
+    }
+    .devintro2{
+        font-size: 2rem;
+
+    }
+}
