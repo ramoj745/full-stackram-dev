@@ -90,6 +90,7 @@ section {
     background-color: transparent;
     border: none;
 }
+
 @media (max-width: 576px) {
     .devintro{
         font-size: 3rem;
@@ -98,6 +99,9 @@ section {
     .devintro2{
         font-size: 2rem;
         text-align: center;
+    }
+    .adjust {
+        height: 520px;
     }
 }
 @media (max-width: 990px) {
@@ -109,3 +113,4 @@ section {
 
     }
 }
+
