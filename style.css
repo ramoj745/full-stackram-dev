@@ -91,6 +91,22 @@ section {
     border: none;
 }
 
+@media (max-width: 300px) {
+    .devintro{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .devintro2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .adjust {
+        height: 520px;
+    }
+    #about {
+        margin-bottom: 80px;
+    }
+}
 @media (max-width: 576px) {
     .devintro{
         font-size: 3rem;
